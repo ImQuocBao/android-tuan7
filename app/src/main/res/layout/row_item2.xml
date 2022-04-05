@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B36FBDA1">
+
+    <TextView
+        android:id="@+id/txtName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="1. Đà Lạt"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="58dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtName2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector__2_"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector__3_"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
