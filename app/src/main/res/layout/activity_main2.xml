@@ -16,19 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="312dp"
-            android:layout_height="66dp"
-            android:layout_marginTop="8dp"
-            android:text="The place that you will visit in the future"
-            android:textColor="#000000"
-            android:textSize="24dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.862"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="59dp"
@@ -39,6 +26,19 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.36"
             app:srcCompat="@drawable/vector__1_" />
+
+        <EditText
+            android:id="@+id/editnameplace"
+            android:layout_width="306dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="The place that you will visit in the future"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.851"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ListView
-        android:id="@+id/lvStudent2"
+        android:id="@+id/lvTravel"
         android:layout_width="410dp"
         android:layout_height="467dp"
         android:layout_marginTop="36dp"
